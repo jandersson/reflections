@@ -5,3 +5,7 @@ A .git folder is created wherever I called the init command. I need to git init 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is a logical directory that sits between the working directory and the repository. It is analagous to a buffer and allows commits to be prepared before being executed, minimizing mistakes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I could add potential files to the staging area then run "git diff" and inspect the changes to make sure they represent a single logical change. If they do not then I can remove files from staging until I "git diff" shows only a single logical change.
