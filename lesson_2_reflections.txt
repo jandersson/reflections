@@ -20,4 +20,8 @@ Graphs and graph traversal helps visualize reachability. When branching, it is h
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-Merging two branches together creates a new commit for both branches where the head pointer for each branch is pointing to the new commit. Sometimes conflicts occur when trying to merge branches. The diagram illustrates the divergence of the history of changes in each branch. 
+Merging two branches together creates a new commit for both branches where the head pointer for each branch is pointing to the new commit. Sometimes conflicts occur when trying to merge branches. The diagram illustrates the divergence of the history of changes in each branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging does not inspect the content of the code for mistakes so it leaves the chance for run time or logical errors to occur where there are no conflicts and merging occurs. Manual merging is time consuming and requires knowledge of all code being inspected but reduces the risk of error. 
