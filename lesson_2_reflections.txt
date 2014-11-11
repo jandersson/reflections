@@ -9,3 +9,11 @@ The staging area is a logical directory that sits between the working directory 
 How can you use the staging area to make sure you have one commit per logical change?
 
 I could add potential files to the staging area then run "git diff" and inspect the changes to make sure they represent a single logical change. If they do not then I can remove files from staging until I "git diff" shows only a single logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches allow for experimentation and modification without affecting the master branch which is presumably the most tried and true version of ones program or code.
+
+How do the diagrams help you visualize the branch structure?
+
+Graphs and graph traversal helps visualize reachability. When branching, it is helpful to think of the graph structure and how one is diverging from the parent node. Several branches will create a tree structure.
