@@ -17,3 +17,7 @@ Branches allow for experimentation and modification without affecting the master
 How do the diagrams help you visualize the branch structure?
 
 Graphs and graph traversal helps visualize reachability. When branching, it is helpful to think of the graph structure and how one is diverging from the parent node. Several branches will create a tree structure.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together creates a new commit for both branches where the head pointer for each branch is pointing to the new commit. Sometimes conflicts occur when trying to merge branches. The diagram illustrates the divergence of the history of changes in each branch. 
